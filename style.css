@@ -7,6 +7,9 @@ body{
 .textresponsive{
     background-color: #333 !important;
 }
+.displayblock{
+    display: none;
+}
 @media only screen and (max-width:768px) {
     .media{
         display: none;
@@ -16,6 +19,9 @@ body{
     }
     .displaynone{
         display: none;
+    }
+    .displayblock{
+        display: block;
     }
 }
 .bg3{
